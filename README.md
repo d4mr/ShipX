@@ -1,6 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+JUST A SIMPLE REACT APP TO VIEW AND DISPLAY SPACEX SHIPS, NOT SPACESHIPS, LITERAL FLOATING SHIPS, AND IN CASE U NEVER RAN A REACT PROJECT, KEEP READING THE AUTO GENERTED 
+README.md BY create-react-app---->
 
-## Available Scripts
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
