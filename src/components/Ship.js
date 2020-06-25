@@ -14,7 +14,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function Ship({ship}) {
+export default function Ship({ ship }) {
   const classes = useStyles();
 
   return (
@@ -27,15 +27,18 @@ export default function Ship({ship}) {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-          {ship.name}
+            {ship.name}
           </Typography>
-          <span>WEIGHT(kgs) {ship.weight_kg }  </span>
-                <span>TYPE {ship.type}</span>
-                <p>STATUS {ship.active}</p>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+          <Typography variant="body2" component="p">
+            WEIGHT(kgs): {ship.weight_kg}
           </Typography>
+          <Typography variant="body2" component="p">
+            TYPE {ship.type}
+          </Typography>
+          <Typography variant="body2" component="p">
+            STATUS {ship.active}
+          </Typography>
+
         </CardContent>
       </CardActionArea>
       <CardActions>

@@ -34,7 +34,7 @@ function ShipsContainer() {
 
             <div style={{ width: "100%", display: "flex", alignItems: "center", justifyContent: "space-evenly", height: "300px" }}>
                 <Button variant="outlined" color="primary" size="large" onClick={decrement}>Show less</Button>
-                <Button variant="outlined" color="secondary" size="large" onClick={increment}>Show More</Button>
+                <Button variant="contained" color="secondary" size="large" onClick={increment}>Show More</Button>
             </div>
 
         </Container>
