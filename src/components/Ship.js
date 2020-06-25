@@ -1,22 +1,51 @@
 import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import Card from '@material-ui/core/Card';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
+import Button from '@material-ui/core/Button';
+import Typography from '@material-ui/core/Typography';
 
-export function Ship({ ship }){
-    return (
-        <div className = "ship">
-            <div className= "ship_name">
-                <p>{ship.name}</p>
-            </div>
-            <div className= "ship_image">
-                <img src={ship.image} alt = {ship.name}></img>
-            </div>
-            <div className= "ship_data">
-                <span>WEIGHT(kgs) {ship.weight_kg }  </span>
+const useStyles = makeStyles({
+  root: {
+    maxWidth: 345,
+  },
+  media: {
+    height: 140,
+  },
+});
+
+export default function Ship({ship}) {
+  const classes = useStyles();
+
+  return (
+    <Card className={classes.root} >
+      <CardActionArea>
+        <CardMedia
+          className={classes.media}
+          image={ship.image}
+          title={ship.name}
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+          {ship.name}
+          </Typography>
+          <span>WEIGHT(kgs) {ship.weight_kg }  </span>
                 <span>TYPE {ship.type}</span>
                 <p>STATUS {ship.active}</p>
-            </div>
-            <div className= "url">
-                <a href = {ship.url}>CLICK FOR MORE DATA</a>
-            </div>
-        </div>
-    )
+          <Typography variant="body2" color="textSecondary" component="p">
+            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
+            across all continents except Antarctica
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        <Button size="small" color="primary" href={ship.url}>
+          Learn More
+        </Button>
+      </CardActions>
+    </Card>
+  );
 }
