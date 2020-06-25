@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "583084e1225837eac85d6e5100998604",
+    "revision": "8f4630baf7465b5b6b9e7d1dd9a39e3d",
     "url": "/shipx/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/shipx/static/js/2.6be3783e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "089be24d1d5a18f18c77",
-    "url": "/shipx/static/js/main.939adcd3.chunk.js"
+    "revision": "058265cdf3902cf35da9",
+    "url": "/shipx/static/js/main.6af65e59.chunk.js"
   },
   {
     "revision": "4bb7a710c5ec99c0630f",

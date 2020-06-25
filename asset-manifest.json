@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/shipx/static/js/main.939adcd3.chunk.js",
-    "main.js.map": "/shipx/static/js/main.939adcd3.chunk.js.map",
+    "main.js": "/shipx/static/js/main.6af65e59.chunk.js",
+    "main.js.map": "/shipx/static/js/main.6af65e59.chunk.js.map",
     "runtime-main.js": "/shipx/static/js/runtime-main.5d0566a3.js",
     "runtime-main.js.map": "/shipx/static/js/runtime-main.5d0566a3.js.map",
     "static/js/2.6be3783e.chunk.js": "/shipx/static/js/2.6be3783e.chunk.js",
     "static/js/2.6be3783e.chunk.js.map": "/shipx/static/js/2.6be3783e.chunk.js.map",
     "index.html": "/shipx/index.html",
-    "precache-manifest.874d0a2ad8aff8640465325edbabe168.js": "/shipx/precache-manifest.874d0a2ad8aff8640465325edbabe168.js",
+    "precache-manifest.ea88d1c21314f58e82fab1b329263134.js": "/shipx/precache-manifest.ea88d1c21314f58e82fab1b329263134.js",
     "service-worker.js": "/shipx/service-worker.js",
     "static/js/2.6be3783e.chunk.js.LICENSE.txt": "/shipx/static/js/2.6be3783e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5d0566a3.js",
     "static/js/2.6be3783e.chunk.js",
-    "static/js/main.939adcd3.chunk.js"
+    "static/js/main.6af65e59.chunk.js"
   ]
 }
