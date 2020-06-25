@@ -29,14 +29,14 @@ export default function Ship({ ship }) {
           <Typography gutterBottom variant="h5" component="h2">
             {ship.name}
           </Typography>
-          <Typography variant="body2" component="p">
-            WEIGHT(kgs): {ship.weight_kg}
+          <Typography variant="body2" color="textSecondary" component="p">
+            Weight (kgs): {ship.weight_kg}
           </Typography>
-          <Typography variant="body2" component="p">
-            TYPE {ship.type}
+          <Typography variant="body2" color="textSecondary" component="p">
+            Type: {ship.type}
           </Typography>
-          <Typography variant="body2" component="p">
-            STATUS {ship.active}
+          <Typography variant="body2" color="textSecondary" component="p">
+            Status: {ship.active?"Active":"Inactive"}
           </Typography>
 
         </CardContent>
